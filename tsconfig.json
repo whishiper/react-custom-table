@@ -1,0 +1,38 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "es5",
+    "downlevelIteration": true,
+    "strict":true,
+    "declaration": true,
+    "lib": ["esnext", "dom"],
+    "sourceMap": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "diagnostics": true,
+    "noImplicitAny":true,
+    "alwaysStrict": true,  
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */,
+    "noUnusedLocals": false,
+    "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts",
+    "src/assets"
+  ],
+  "typeRoots": ["node_modules/@types"]
+}

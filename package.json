@@ -1,0 +1,41 @@
+{
+  "name": "react-custom-table",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.ts",
+  "dependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "babel-loader": "^8.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "resolutions": {
+    "@types/react": "^16.9.2"
+  },
+  "scripts": {
+    "build": "rm -rf ./lib && tsc &&  babel ./src --out-dir -d ./lib --copy-files",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whishiper/react-custom-table.git"
+  },
+  "keywords": [
+    "react",
+    "table"
+  ],
+  "author": "whishiper",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}
