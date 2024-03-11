@@ -23,7 +23,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.9.0",
-    "react-custom-table": "^0.2.13",
+    "react-custom-table2": "^0.2.13",
     "react-dom": "^16.9.0",
     "react-json-tree": "^0.11.2",
     "style-loader": "^1.0.0",

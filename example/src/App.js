@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Table from '../../lib/index';
 // import Table from '../../src/index';
-// import Table from 'react-custom-table'
+// import Table from 'react-custom-table2'
 import info from './mock/info';
 import info_2 from './mock/info_2';
 import JSONTree from 'react-json-tree';

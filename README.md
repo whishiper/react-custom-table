@@ -1,11 +1,11 @@
-# react-custom-table
+# react-custom-table2
 适用于表格某些行的信息需要合并展示的场景
 ## demo
-[demo](https://whishiper.github.io/react-custom-table/index.html)
+[demo](https://whishiper.github.io/react-custom-table2/index.html)
 ## usage
 ```
-npm i react-custom-table 
-or yarn add react-custom-table
+npm i react-custom-table2 
+or yarn add react-custom-table2
 ```
 ## 属性说明
 | 属性              | 说明                 | 默认值   | 类型   |
